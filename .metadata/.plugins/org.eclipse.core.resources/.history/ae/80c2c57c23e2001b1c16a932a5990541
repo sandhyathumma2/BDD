@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallal" parallal="tests" thread="2">
+<test name="parallal1">
+<classes>
+<class name="Parallal.Parallal">
+</class>
+</classes>
+</test>
+
+<test name="parallal2">
+<classes>
+<class name="Parallal.Parallal">
+</class>
+</classes>
+</test>
+</suite>

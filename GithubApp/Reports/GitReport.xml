@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="18.301">
+    <testcase classname="GitHub Login Functionality" name="User is trying to signin in GitHub account with Invalid credentials" time="14.293">
+        <system-out><![CDATA[Given User is on GitHub Login Page..........................................passed
+When User Enter Invalid Credentials and click submit button.................passed
+Then "Incorrect username or password." message should dispaly...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="GitHub Login Functionality" name="User is trying to signin in GitHub account with valid credentials" time="3.817">
+        <system-out><![CDATA[Given User is on GitHub Login Page..........................................passed
+When User Enter Valid Credentials and click submit button...................passed
+Then User successfully sign on his GitHub account...........................passed
+]]></system-out>
+    </testcase>
+</testsuite>

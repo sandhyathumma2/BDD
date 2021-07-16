@@ -1,0 +1,19 @@
+package Parallal;
+
+
+
+public class parallal {
+
+	
+	public void A() {
+	System.out.println("A meethod will Executed");	
+	}
+	
+    public void B() {
+    	System.out.println("B meethod will Executed");
+	}
+	 
+    public void C() {
+    	System.out.println("c meethod will Executed");
+    }
+}

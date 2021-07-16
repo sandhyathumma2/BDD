@@ -1,0 +1,56 @@
+package Sample;
+
+import com.google.common.hash.HashCode;
+
+public class sample {
+	
+	
+	
+
+
+
+	public static void main(String[] args) {
+	
+ String x="name",y="name1";
+	System.out.println(x.equals(y));
+	if(x.hashCode()==y.hashCode()) 
+		System.out.println(true);
+		else
+			System.out.println(false);
+
+	 {
+	
+	}
+	 
+	 try {
+		 int n=2/0;
+		 System.out.println(n);
+	 }catch (ArithmeticException e) {
+		e.getMessage();
+	}catch (Exception e) {
+		e.printStackTrace();
+	}
+	
+		boolean flag=false;
+	 int  h=0;
+		for(;flag=!flag;) {
+			h++;
+		}System.out.println(h);
+	
+	
+	int i=2,j=1;
+	do {if(i++>--j)
+	{
+		break;
+		
+	}
+		
+	}while(i<9);
+	System.out.println("i =" +i+ "and j=" +j);
+	}
+	
+	
+	}
+	
+
+

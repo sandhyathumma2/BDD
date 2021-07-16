@@ -1,0 +1,23 @@
+package Parallal;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class Chrome1 {
+  @BeforeClass
+  public void setup() {
+	  
+  }
+  
+  @Test
+  public void fblogin() {
+	  
+  }
+  
+  @AfterClass
+  public void tearDown() {
+	  
+  }
+  
+}
